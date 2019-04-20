@@ -1,0 +1,10 @@
+.blog-page{
+  background-color: $color-primary-1;
+  padding: 60px 0;
+  @media only screen and (max-width: 768px) {
+    padding: 30px 0;
+  }
+    @media only screen and (max-width: 768px) {
+      right: calc(40% - 20px);
+  }
+}

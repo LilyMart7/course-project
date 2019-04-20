@@ -1,0 +1,165 @@
+ .footer-top{
+    background-color: $color-primary-1;
+    height: 220px;
+    margin-top: 50px; 
+    padding: 0;  
+    @media screen and (max-width: 1200px){
+      display: none;
+      } 
+    }
+    
+    .footer-top .essays-logo{
+    background:  url(../img/essays-logo.png) no-repeat;    
+    height: 105px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 0; 
+    }
+
+    .contacts-bottom{
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .footer-top .contacts{
+    margin: 0;
+    font-family: $font-regular;
+    color: $font-color-1;
+   
+    }
+    
+     
+    .footer-top .contacts a{
+    color: $font-color-1;
+    font-family: $font-regular;
+    padding-left: 5px;
+    text-decoration: none;
+    
+    }
+    
+    .footer-top .lorem-text{
+    display: inline-block; 
+    margin-top: 34px;   
+    font-family: $font-regular;
+    color: $font-color-1;
+    border: 2px solid $font-color-1;
+    font-size: 11px;
+    line-height: 19px;
+    padding: 24px;
+    
+    }
+    
+    .footer-top .red-arrow-1{
+    display: inline-block;    
+    background:  url(../img/red-arrow-1png.png) no-repeat;    
+    height: 34px;
+    width: 34px;
+    position: relative;
+    left: 96%;
+    top: -28px;
+    
+    }
+    
+    footer .footer-bottom{
+    background-color: #4e4e4e;
+    height: 75px;
+    padding: 0;
+       
+    @media screen and (max-width: 1200px){
+      background-color: $color-primary-1;
+      margin-top: 35px;
+      }
+    }
+    
+    .footer-bottom .social{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;  
+    z-index: 1;
+   
+    @media screen and (max-width: 1200px){
+      display: none;
+      }
+    }
+     
+    .footer-bottom .join{
+    display: inline-block;
+    color: $font-color-1;
+    font-size: 17px;
+    font-family: $font-regular;
+    @media screen and (max-width: 1200px){
+      display: none;
+      }
+    }
+       
+    .footer-bottom .pinterest{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    background: url('../img/pinterest.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    @media screen and (max-width: 1200px){
+      display: none;
+      }
+    }
+            
+    .footer-bottom .twitter{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    background: url('../img/twitter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+    @media screen and (max-width: 1200px){
+      display: none;
+      }
+    }
+        
+    .footer-bottom .facebook{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 11px;
+    background: url('../img/facebook.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    @media screen and (max-width: 1200px){
+      display: none;
+      }
+    }
+    
+    .footer-bottom .copywrite{
+    color: $font-color-1;
+    font-size: 13px;
+    font-family: $font-regular;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .footer-bottom .bee-line{
+    background: url(../img/stripe.png) no-repeat;
+    height: 310px;
+    width: 736px;
+    display: inline-block;
+    position: relative;
+    bottom: 273px;
+    right: 193px;
+    z-index: 0;
+
+    @media screen and (max-width: 1200px){
+      display: none;
+      }
+    }

@@ -1,0 +1,236 @@
+.main-text-2{
+text-align: center;
+font-family: $font-regular;
+color: $font-color-2;  
+font-size: 35px;
+text-transform: capitalize;  
+margin: 45px 0;
+} 
+    
+.blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;  
+    background-color: $color-primary-2;
+    color: $font-color-3;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: $font-regular;  
+    border: 1px solid #cccccc; 
+    margin-bottom: 15px; 
+    padding: 0 30px;
+}
+    
+.blocks:hover{
+    background-color: $color-btn-1-hover;
+    color: $font-color-1;    
+}
+    
+.blocks:last-child{
+    margin-right: 0;    
+}
+    
+.blocks i{
+   display: flex;
+   font-size: 30px;
+   margin-bottom: 25px;
+   margin-top: 45px;
+}
+
+    
+.main-text-3{
+    text-align: center;
+    font-family: $font-bold;
+    color: $font-color-2;  
+    font-size: 35px;
+    text-transform: uppercase;  
+    margin: 30px 0;
+       @media screen and (max-width: 768px){
+        font-size: 25px;
+        }
+
+} 
+    
+.column{
+    line-height: 25px;
+    font-family: $font-regular;
+    font-size: 17px;
+    word-break: normal;
+    margin-bottom: 70px;
+    text-align: justify;
+
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+
+    @media screen and (max-width: 1200px){
+        -moz-column-count: 1;
+        column-count: 1;
+
+        margin-bottom: 30px;
+       }
+}    
+    
+.how-it-works{
+    background-color: $color-primary-2;
+    height: 510px;   
+    margin-bottom: 25px;  
+    @media screen and (max-width: 1200px){
+        display: none;
+        }
+}
+    
+.text-how{
+    display: flex;
+    justify-content: center;
+    color: $font-color-1;
+    font-size: 30px;
+    font-family: $font-regular;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+    
+.how-it-works-1{
+    
+    height: 510px;  
+    background: url(../img/background.png);
+    background-position: center;
+    }
+    
+    .how-it-works .place-1{
+    padding: 0;
+    margin-top: 34px;
+    font-size: 13px;
+    color: $font-color-3;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    
+    .how-it-works .place-2{
+    padding: 0;
+    font-size: 13px;
+    margin-top: 34px;
+    color: $font-color-3;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    
+    .how-it-works .place-3{
+    padding: 0;
+    font-size: 13px;
+    margin-top: 34px;
+    color: $font-color-3;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    
+    .how-it-works .place{
+    margin-top: 117px;    
+    }
+    
+    .how-it-works .place-4{
+    padding: 0;
+    font-size: 13px;
+    margin-top: 41px;
+    color: $font-color-3;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    
+    .how-it-works .place-5{
+    padding-left: 64px;
+    font-size: 13px;
+    margin-top: 41px;
+    color: $font-color-3;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+     
+    .main-2 .ordering{
+    text-align: center;
+    font-family: $font-regular;
+    color: $font-color-2;  
+    font-size: 31px;
+    text-transform: initial;
+    padding: 0 40px; 
+    
+    @media screen and (max-width: 1200px){
+        font-size: 25px;
+        }
+    } 
+    .ordering-column{
+        @media screen and (max-width: 1200px){
+            line-height: 42px;
+            }
+      
+    }
+    .main-2 .ordering-list{
+    color: #4e4e4e;
+    font-size: 15px;
+    font-family: $font-regular; 
+    margin-top: 0; 
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    line-height: 25px;
+    text-align: justify;
+    }
+    
+    .main-2 .ordering-list li::before{
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background:  url(../img/red-arrow.png) no-repeat;
+    position: relative;  
+    right: 8px;  
+    }
+    
+    .main-2 .ordering-text{
+        color: #4e4e4e;
+        font-size: 15px;
+        font-family: $font-regular; 
+        margin-top: 0; 
+        margin-bottom: 20px;
+        list-style: none;
+        padding: 0;
+        line-height: 25px;
+        text-align: justify;
+    }
+    
+    .main-2 .read{
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 1200px){
+        display: none;
+        }
+}
+
+    .main-2 .button-read{
+        display: inline-block;
+        width: 188px;
+        height: 53px;
+        border: 1px solid #ffffff;
+        background-color:$color-btn-1;
+        font-size: 16px;
+        font-family: $font-bold;
+        text-transform: uppercase;
+        color: $font-color-1;
+        text-align: center;
+        padding: 8px 0px;
+         
+        i{
+            margin-right: 10px;
+            font-size: 20px;
+        }    
+
+          &:hover{
+            background-color: $color-btn-1-hover;
+            color: $font-color-1;
+            text-decoration: none;
+            }
+    }
+
+    

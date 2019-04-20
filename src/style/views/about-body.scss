@@ -1,0 +1,228 @@
+.about{
+    height: 115px;
+    background: $color-primary-2;
+    display: flex;
+    align-items: center;
+   
+.about-text{
+    display: flex;
+    justify-content: center;
+    font-family: $font-semi-bold;
+    color: $font-color-1;
+    text-transform: uppercase;
+    font-size: 36px;
+}    
+}
+ 
+.why-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: $font-regular;
+    color: $font-color-2;
+    font-size: 28px;
+}
+
+
+.when{
+    height: 70px;
+    background: #2a80b9;
+    color: $font-color-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px; 
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.when-list{
+    color: #4e4e4e;
+    font-size: 15px;
+    font-family: $font-light; 
+    margin-top: 0; 
+    list-style: none;
+    padding: 0;
+    line-height: 25px;
+    text-align: justify;
+    background-color: #eaedf2;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    line-height: 30px;
+}
+    
+.when-list i{
+    color: #e84c3d;
+    padding-right: 10px;
+}
+
+.choose-us{
+    padding: 0;
+
+    @media screen and (max-width: 1200px){
+        display: none;
+        }
+
+.choose-text{
+    height: 70px;
+    background: #2a80b9;
+    color: $font-color-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.why-list{
+    color: $font-color-1;
+    font-size: 15px;
+    font-family: $font-light; 
+    margin-top: 0; 
+    list-style: none;
+    padding: 0;
+    line-height: 25px;
+    text-align: justify;
+    background-color: $color-primary-2;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+    
+.why-list i{
+    color: $font-color-1;
+    padding-right: 10px;
+}
+}
+
+.why-us{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.why-us-text{
+    display: flex;
+    justify-content: center;
+    font-family: $font-regular;
+    color: $font-color-2;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.why-us-text2{
+    display: flex;
+    justify-content: center;
+    font-family: $font-regular;
+    color: $font-color-2;
+    font-size: 20px;
+    text-align: center;
+}
+
+.why-us-text3{
+    font-family: $font-light;
+    color: $font-color-4;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+.button-order-why{
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.btn-order{
+    display: inline-block;
+    width: 269px;
+    height: 69px;
+    border: 1px solid #ffffff;
+    background-color:$color-btn-2;
+    font-size: 18px;
+    font-family: $font-bold;
+    text-transform: uppercase;
+    color: $font-color-1;
+    text-align: center;
+    padding: 8px 0px;
+ 
+      
+      i{
+     
+        float: left;
+        padding: 2px 0 0 10px;
+      
+        }
+        &:hover{
+        background-color: $color-btn-2-hover;
+        color: $font-color-1;
+        text-decoration: none;
+        }
+      }
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+    font-family: $font-regular;
+    color: $font-color-2;
+    font-size: 36px;
+    margin-top: 30px;
+}      
+
+.contact-us-text{
+    font-family: $font-light;
+    color: $font-color-4;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.contact-us-text p{
+    font-family: $font-regular;
+    color: $font-color-2;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form{
+margin-top: 20px;
+    @media screen and (max-width: 1200px){
+        display: none;
+        }
+
+
+.form-text{
+    height: 70px;
+    background: #2a80b9;
+    color: $font-color-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.form{
+    height: 380px;
+    background: $color-primary-2;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+
+    
+}
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
