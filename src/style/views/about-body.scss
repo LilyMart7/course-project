@@ -119,6 +119,10 @@
     color: $font-color-2;
     font-size: 20px;
     text-align: center;
+
+    @media screen and (max-width: 1200px){
+        display: none;
+        }
 }
 
 .why-us-text3{
@@ -212,12 +216,12 @@ margin-top: 20px;
 
 .form{
     height: 380px;
-    background: $color-primary-2;
+    background: #86c1ea;
     margin-top: 0;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-
-    
+    flex-direction: column;
+    padding-left: 85px;   
 }
 }
 
@@ -225,4 +229,36 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.form-group{
+    padding-top: 35px;
+}
+
+.name-data{
+    width: 65%;
+    height: 45px;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+.email-data{
+    width: 65%;
+    height: 45px;
+    padding: 20px;
+    margin-left: 66px;
+}
+
+.text-data{
+    
+        width: 65%;
+        height: 45px;
+        padding: 20px;
+        margin-left: 43px;
+    }
+
+
+.form label{
+  font-family: $font-regular;
+  color: $font-color-3;
 }
