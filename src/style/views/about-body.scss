@@ -232,7 +232,7 @@ margin-top: 20px;
 }
 
 .form-group{
-    padding-top: 35px;
+    padding-top: 25px;
 }
 
 .name-data{
@@ -252,7 +252,7 @@ margin-top: 20px;
 .text-data{
     
         width: 65%;
-        height: 45px;
+        height: 90px;
         padding: 20px;
         margin-left: 43px;
     }
@@ -262,3 +262,36 @@ margin-top: 20px;
   font-family: $font-regular;
   color: $font-color-3;
 }
+
+.button-chat{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 110px;
+}
+
+.btn-live-chat{
+    display: inline-block;
+    width: 188px;
+    height: 53px;
+    border: 1px solid #ffffff;
+    background-color: $color-btn-2;
+    font-size: 18px;
+    font-family: $font-semi-bold;
+    text-transform: uppercase;
+    color: $font-color-1;
+    text-align: center;
+    padding: 8px 0px;
+    
+      i{
+     
+        float: center;
+        padding: 10px;
+    
+      }
+      &:hover{
+        background-color: $color-btn-2-hover;
+        color: $font-color-1;
+        text-decoration: none;
+      }
+    }

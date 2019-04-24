@@ -1,10 +1,10 @@
-.service-price{
+.how{
     height: 115px;
     background: $color-primary-2;
     display: flex;
     align-items: center;
    
-.service-price-text{
+.how-text{
     display: flex;
     justify-content: center;
     font-family: $font-semi-bold;
@@ -14,7 +14,7 @@
 }    
 }
  
-.price-text{
+.works-text{
     display: flex;
     justify-content: center;
     margin-top: 35px;
@@ -23,7 +23,7 @@
     font-size: 28px;
 }
 
-.price-text-1{
+.works-text-1{
     font-family: $font-light;
     color: $font-color-3;
     font-size: 12px;
@@ -31,4 +31,3 @@
     margin-top: 20px;
     line-height: 20px;
 }
-
