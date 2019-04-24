@@ -74,11 +74,19 @@ a{
     color: $font-color-2;
     font-family: $font-light;
     font-size: 12px;
+
+    &:hover{
+        color: $font-color-1;
+      }
 }    
 }
 
 .button-login{
     margin-top: 22px;
+
+i{
+    padding-right: 20px;
+}    
 }
 
 }
