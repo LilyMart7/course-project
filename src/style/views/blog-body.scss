@@ -1,10 +1,17 @@
-.how{
+.blog-block{
+    @media screen and (max-width: 1200px){
+        display: flex;
+        justify-content: center;
+        }
+}
+
+.blog{
     height: 115px;
     background: $color-primary-2;
     display: flex;
     align-items: center;
    
-.how-text{
+.blog-text{
     display: flex;
     justify-content: center;
     font-family: $font-semi-bold;
@@ -14,20 +21,102 @@
 }    
 }
  
-.works-text{
+.blog-border{
+    border: 2px solid #eaedf2;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.data{
+    @media screen and (max-width: 1200px){
+        display: none;
+        }
+}
+
+.red{
+    height: 100px;
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    align-items: center;
+    background: #e84c3d;
+    color: $font-color-1;
+    font-family: $font-regular;
+    width: 80%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.blue{
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color-primary-2;
+    color: $font-color-3;
+    font-family: $font-regular;
+    margin-top: 0px;
+    width: 80%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.blog-picture{
+    background: url(..//img/blog.png);
+    width: auto;
+    height: 265px;
+}
+
+.posted{
+    margin-top: 20px;
+    font-family: $font-light;
+    color: $font-color-3;
+    font-size: 14px;
+    text-transform: uppercase;
+
+span{
+    font-family: $font-regular;
+}    
+}
+
+.blog-text-1{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
     font-family: $font-regular;
     color: $font-color-2;
     font-size: 28px;
-}
+} 
 
-.works-text-1{
+.blog-text-2{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
     font-family: $font-light;
     color: $font-color-3;
     font-size: 12px;
     padding: 0;
     margin-top: 20px;
     line-height: 20px;
+}
+
+.reading{
+    display: inline-block;
+    width: 220px;
+    height: 45px;
+    border: 1px solid #ffffff;
+    background-color: $color-btn-1;
+    font-size: 14px;
+    font-family: $font-semi-bold;
+    text-transform: uppercase;
+    color: $font-color-1;
+    text-align: center;
+    padding: 8px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+      &:hover{
+        background-color: $color-btn-1-hover;
+        color: $font-color-1;
+        text-decoration: none;
+      }
 }
