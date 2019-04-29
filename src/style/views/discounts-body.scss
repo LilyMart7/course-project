@@ -21,13 +21,100 @@
     font-family: $font-regular;
     color: $font-color-2;
     font-size: 28px;
+    text-align: center;
 }
 
-.works-text-1{
+.discount-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: $font-regular;
+    color: #e84c3d;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first-order{
+    display: flex;
+    justify-content: center;
+}
+
+.first-text{
+    height: 135px;
+    background: #e84c3d;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    font-family: $font-extra-bold;
+    color: $font-color-1;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+
+i{
+    padding-right: 50px;
+    font-size: 70px;
+}     
+}
+
+.discount-text-1{
     font-family: $font-light;
     color: $font-color-3;
     font-size: 12px;
     padding: 0;
     margin-top: 20px;
     line-height: 20px;
+}
+
+.discounts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+    @media screen and (max-width: 1200px){     
+        flex-direction: column;
+        }
+}
+
+.discount-tag-1{
+    background: url(/img/5percent.png);
+    height: 89px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 1200px){     
+        margin-bottom: 20px;
+        }
+}
+
+.discount-tag-2{
+    background: url(/img/10percent.png);
+    height: 89px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 1200px){     
+        margin-bottom: 20px;
+        }
+}
+
+.discount-tag-3{
+    background: url(/img/15percent.png);
+    height: 89px;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 1200px){     
+        margin-bottom: 20px;
+        }
+}
+
+.discount-tag-text{
+    font-family: $font-light;
+    color: $font-color-3;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 35px; 
+
+   
 }
