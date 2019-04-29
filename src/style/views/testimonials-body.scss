@@ -1,3 +1,7 @@
+.testimon{
+    padding: 0;
+}
+
 .how{
     height: 115px;
     background: $color-primary-2;
@@ -21,13 +25,116 @@
     font-family: $font-regular;
     color: $font-color-2;
     font-size: 28px;
+    text-align: center;
 }
 
-.works-text-1{
-    font-family: $font-light;
-    color: $font-color-3;
-    font-size: 12px;
+.testimon-part{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 992px){
+    display: flex;
+    flex-direction: column;
+        }
+
+.reading{
+    @media screen and (max-width: 992px){
+        margin-top: 10px;
+        margin-bottom: 25px;
+        }
+}        
+}
+
+.pagination{
+    display: flex;
+    list-style: none;
     padding: 0;
-    margin-top: 20px;
-    line-height: 20px;
+
+li{
+    padding: 0 10px;
+    border: 1px solid #86c1ea;
+    margin: 0 3px;
+a{
+    text-decoration: none;
+    color: $font-color-3;
+    font-family: $font-regular;
+    font-size: 12px;
+}    
+}    
+}
+
+.testimon-body{
+width: 100%;
+height: 220px;
+background: #eaedf2;
+border-radius: 10px;
+margin-bottom: 30px;
+
+@media screen and (max-width: 768px){
+    height: 250px;
+    }
+
+.testimon-text{
+    font-family: $font-light;
+    color: $font-color-4;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+    padding: 20px 50px;
+    display: flex;
+
+    @media screen and (max-width: 1200px){
+        padding: 10px 10px;
+        line-height: 25px;
+        display: flex;
+        }
+    
+i{
+    color: #e84c3d;
+    padding-right: 10px;
+}    
+}
+
+.text-name{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    color: $font-color-2;
+    font-family: $font-regular;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 992px){     
+        justify-content: flex-start;
+        padding-left: 30px;
+        }
+}
+}    
+
+.contact{
+    margin-top: 0;
+}
+
+
+
+.rate-text{
+    margin-top: 50px;
+    color: $font-color-3;
+    font-family: $font-regular;
+
+i:first-child{
+    color: #fabb13;
+    padding-left: 30px;
+    
+i{
+    color: $font-color-3;
+    
+}    
+}    
 }
