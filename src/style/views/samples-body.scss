@@ -23,11 +23,104 @@
     font-size: 28px;
 }
 
-.works-text-1{
+.powerpoint-block{
+    margin-top: 35px;
+}
+
+.powerpoint-block-body{
+    border-bottom: 1px dashed #4e4e4e;
+    margin-bottom: 15px;
+}
+
+.powerpoint{
+    height: 65px;
+    background: $color-primary-1;
+    color: $font-color-1;
+    font-family: $font-regular;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.download{
+    padding: 0;
+
+button{
+    width: 100%;
+}    
+}
+
+.pdf{
+    background: url(/img/pdf.png);
+    height: 105px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 0;
+}
+
+.table{
+    margin: 20px 0;
+    padding-right: 0;
+}
+
+.table-striped{
+width: 100%;
+
+tr{
+    height: 30px;
+    
+}
+
+td{
+    padding-left: 30px;
+    font-family: $font-light;
+    color: $font-color-2;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+    }
+} 
+
+.download-text{
+    padding: 0;
+
+.now{
     font-family: $font-light;
     color: $font-color-3;
-    font-size: 12px;
-    padding: 0;
+    font-size: 12px;   
+}   
+
+.from{
+    font-family: $font-light;
+    color: #2a80b9;
+    font-size: 18px; 
+    
+span{
+    color: #e84c3d;   
+}    
+}
+}
+
+.discount20{
+    font-family: $font-light;
+    color: #2a80b9;
+    font-size: 18px; 
+    text-align: center;
+    
+span{
+    color: #e84c3d;   
+}    
+}
+
+.samples-pagination{
     margin-top: 20px;
-    line-height: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.samples-pagination-list{
+    padding: 0;
 }
