@@ -31,3 +31,34 @@
     margin-top: 20px;
     line-height: 20px;
 }
+
+.how-block{
+    display: block;
+    margin: 20px 0;
+}
+
+.how-block-body{
+    padding: 0;
+    color: $font-color-2;
+    margin-bottom: 10px;
+    font-family: $font-regular;
+    font-size: 18px;
+
+    i{
+        color: #e84c3d;
+        padding-right: 15px;
+    }
+}
+
+.how-block-text{
+    padding: 0;
+    color: $font-color-4;
+    margin-bottom: 20px;
+    font-family: $font-light;
+    font-size: 12px;  
+    line-height: 25px;
+    text-align: justify;
+    border: 1px dashed #e84c3d;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
